@@ -1,0 +1,153 @@
+{
+  "name": "codigos_postais",
+  "title": "Códigos postais",
+  "description": "",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "codigos_postais",
+      "path": "data/codigos_postais.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 25806496,
+      "schema": {
+        "fields": [
+          {
+            "name": "cod_distrito",
+            "type": "integer",
+            "description": "Código do distrito"
+          },
+          {
+            "name": "cod_concelho",
+            "type": "integer",
+            "description": "Código do concelho"
+          },
+          {
+            "name": "cod_localidade",
+            "type": "integer",
+            "description": "Código da localidade"
+          },
+          {
+            "name": "localidade",
+            "type": "string",
+            "description": "Nome da localidade"
+          },
+          {
+            "name": "cod_arteria",
+            "type": "number",
+            "description": "Código da artéria"
+          },
+          {
+            "name": "tipo_arteria",
+            "type": "string",
+            "description": "Tipo de artéria (Rua, Praça, etc)"
+          },
+          {
+            "name": "prep1",
+            "type": "number",
+            "description": "Primeira preposição"
+          },
+          {
+            "name": "titulo_arteria",
+            "type": "number",
+            "description": "Título (Doutor, Eng.º, Professor, etc)"
+          },
+          {
+            "name": "prep2",
+            "type": "number",
+            "description": "Segunda preposição"
+          },
+          {
+            "name": "nome_arteria",
+            "type": "string",
+            "description": "Designação da artéria"
+          },
+          {
+            "name": "local_arteria",
+            "type": "number",
+            "description": "Local da artéria"
+          },
+          {
+            "name": "troco",
+            "type": "number",
+            "description": "Descrição do troço"
+          },
+          {
+            "name": "porta",
+            "type": "number",
+            "description": "Número da porta do cliente"
+          },
+          {
+            "name": "cliente",
+            "type": "number",
+            "description": "Nome do cliente"
+          },
+          {
+            "name": "cod_postal",
+            "type": "integer",
+            "description": "Número do código postal"
+          },
+          {
+            "name": "extensao_cod_postal",
+            "type": "integer",
+            "description": "Extensão do número do código postal"
+          },
+          {
+            "name": "designacao_postal",
+            "type": "string",
+            "description": "Designação postal"
+          }
+        ]
+      }
+    },
+    {
+      "name": "concelhos",
+      "path": "data/concelhos.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 5514,
+      "schema": {
+        "fields": [
+          {
+            "name": "cod_distrito",
+            "type": "integer",
+            "description": "Código do distrito"
+          },
+          {
+            "name": "cod_concelho",
+            "type": "integer",
+            "description": "Código do concelho"
+          },
+          {
+            "name": "nome_concelho",
+            "type": "string",
+            "description": "Nome do concelho"
+          }
+        ]
+      }
+    },
+    {
+      "name": "distritos",
+      "path": "data/distritos.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 450,
+      "schema": {
+        "fields": [
+          {
+            "name": "cod_distrito",
+            "type": "integer",
+            "description": "Código do distrito"
+          },
+          {
+            "name": "nome_distrito",
+            "type": "string",
+            "description": "Código do concelho"
+          }
+        ]
+      }
+    }
+  ]
+}

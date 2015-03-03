@@ -1,0 +1,309 @@
+cod_distrito,cod_concelho,nome_concelho
+01,06,Castelo de Paiva
+01,07,Espinho
+01,08,Estarreja
+01,09,Santa Maria da Feira
+01,10,Ílhavo
+01,11,Mealhada
+01,12,Murtosa
+01,13,Oliveira de Azeméis
+01,14,Oliveira do Bairro
+01,15,Ovar
+01,16,São João da Madeira
+01,17,Sever do Vouga
+01,18,Vagos
+01,19,Vale de Cambra
+01,01,Águeda
+01,02,Albergaria-a-Velha
+01,03,Anadia
+01,04,Arouca
+01,05,Aveiro
+02,06,Castro Verde
+02,07,Cuba
+02,08,Ferreira do Alentejo
+02,09,Mértola
+02,10,Moura
+02,11,Odemira
+02,12,Ourique
+02,13,Serpa
+02,14,Vidigueira
+02,01,Aljustrel
+02,02,Almodôvar
+02,03,Alvito
+02,04,Barrancos
+02,05,Beja
+03,06,Esposende
+03,07,Fafe
+03,08,Guimarães
+03,09,Póvoa de Lanhoso
+03,10,Terras de Bouro
+03,11,Vieira do Minho
+03,12,Vila Nova de Famalicão
+03,13,Vila Verde
+03,14,Vizela
+03,01,Amares
+03,02,Barcelos
+03,03,Braga
+03,04,Cabeceiras de Basto
+03,05,Celorico de Basto
+04,06,Miranda do Douro
+04,07,Mirandela
+04,08,Mogadouro
+04,09,Torre de Moncorvo
+04,10,Vila Flor
+04,11,Vimioso
+04,12,Vinhais
+04,01,Alfândega da Fé
+04,02,Bragança
+04,03,Carrazeda de Ansiães
+04,04,Freixo de Espada à Cinta
+04,05,Macedo de Cavaleiros
+05,06,Oleiros
+05,07,Penamacor
+05,08,Proença-a-Nova
+05,09,Sertã
+05,10,Vila de Rei
+05,11,Vila Velha de Ródão
+05,01,Belmonte
+05,02,Castelo Branco
+05,03,Covilhã
+05,04,Fundão
+05,05,Idanha-a-Nova
+06,06,Góis
+06,07,Lousã
+06,08,Mira
+06,09,Miranda do Corvo
+06,10,Montemor-o-Velho
+06,11,Oliveira do Hospital
+06,12,Pampilhosa da Serra
+06,13,Penacova
+06,14,Penela
+06,15,Soure
+06,16,Tábua
+06,17,Vila Nova de Poiares
+06,01,Arganil
+06,02,Cantanhede
+06,03,Coimbra
+06,04,Condeixa-a-Nova
+06,05,Figueira da Foz
+07,06,Montemor-o-Novo
+07,07,Mora
+07,08,Mourão
+07,09,Portel
+07,10,Redondo
+07,11,Reguengos de Monsaraz
+07,12,Vendas Novas
+07,13,Viana do Alentejo
+07,14,Vila Viçosa
+07,01,Alandroal
+07,02,Arraiolos
+07,03,Borba
+07,04,Estremoz
+07,05,Évora
+08,06,Lagoa (Algarve)
+08,07,Lagos
+08,08,Loulé
+08,09,Monchique
+08,10,Olhão
+08,11,Portimão
+08,12,São Brás de Alportel
+08,13,Silves
+08,14,Tavira
+08,15,Vila do Bispo
+08,16,Vila Real de Santo António
+08,01,Albufeira
+08,02,Alcoutim
+08,03,Aljezur
+08,04,Castro Marim
+08,05,Faro
+09,06,Gouveia
+09,07,Guarda
+09,08,Manteigas
+09,09,Meda
+09,10,Pinhel
+09,11,Sabugal
+09,12,Seia
+09,13,Trancoso
+09,14,Vila Nova de Foz Côa
+09,01,Aguiar da Beira
+09,02,Almeida
+09,03,Celorico da Beira
+09,04,Figueira de Castelo Rodrigo
+09,05,Fornos de Algodres
+10,06,Caldas da Rainha
+10,07,Castanheira de Pêra
+10,08,Figueiró dos Vinhos
+10,09,Leiria
+10,10,Marinha Grande
+10,11,Nazaré
+10,12,Óbidos
+10,13,Pedrógão Grande
+10,14,Peniche
+10,15,Pombal
+10,16,Porto de Mós
+10,01,Alcobaça
+10,02,Alvaiázere
+10,03,Ansião
+10,04,Batalha
+10,05,Bombarral
+11,06,Lisboa
+11,07,Loures
+11,08,Lourinhã
+11,09,Mafra
+11,10,Oeiras
+11,11,Sintra
+11,12,Sobral de Monte Agraço
+11,13,Torres Vedras
+11,14,Vila Franca de Xira
+11,15,Amadora
+11,16,Odivelas
+11,01,Alenquer
+11,02,Arruda dos Vinhos
+11,03,Azambuja
+11,04,Cadaval
+11,05,Cascais
+12,06,Crato
+12,07,Elvas
+12,08,Fronteira
+12,09,Gavião
+12,10,Marvão
+12,11,Monforte
+12,12,Nisa
+12,13,Ponte de Sor
+12,14,Portalegre
+12,15,Sousel
+12,01,Alter do Chão
+12,02,Arronches
+12,03,Avis
+12,04,Campo Maior
+12,05,Castelo de Vide
+13,06,Maia
+13,07,Marco de Canaveses
+13,08,Matosinhos
+13,09,Paços de Ferreira
+13,10,Paredes
+13,11,Penafiel
+13,12,Porto
+13,13,Póvoa de Varzim
+13,14,Santo Tirso
+13,15,Valongo
+13,16,Vila do Conde
+13,17,Vila Nova de Gaia
+13,18,Trofa
+13,01,Amarante
+13,02,Baião
+13,03,Felgueiras
+13,04,Gondomar
+13,05,Lousada
+14,06,Cartaxo
+14,07,Chamusca
+14,08,Constância
+14,09,Coruche
+14,10,Entroncamento
+14,11,Ferreira do Zêzere
+14,12,Golegã
+14,13,Mação
+14,14,Rio Maior
+14,15,Salvaterra de Magos
+14,16,Santarém
+14,17,Sardoal
+14,18,Tomar
+14,19,Torres Novas
+14,20,Vila Nova da Barquinha
+14,21,Ourém
+14,01,Abrantes
+14,02,Alcanena
+14,03,Almeirim
+14,04,Alpiarça
+14,05,Benavente
+15,06,Moita
+15,07,Montijo
+15,08,Palmela
+15,09,Santiago do Cacém
+15,10,Seixal
+15,11,Sesimbra
+15,12,Setúbal
+15,13,Sines
+15,01,Alcácer do Sal
+15,02,Alcochete
+15,03,Almada
+15,04,Barreiro
+15,05,Grândola
+16,06,Ponte da Barca
+16,07,Ponte de Lima
+16,08,Valença
+16,09,Viana do Castelo
+16,10,Vila Nova de Cerveira
+16,01,Arcos de Valdevez
+16,02,Caminha
+16,03,Melgaço
+16,04,Monção
+16,05,Paredes de Coura
+17,05,Mondim de Basto
+17,06,Montalegre
+17,07,Murça
+17,08,Peso da Régua
+17,09,Ribeira de Pena
+17,10,Sabrosa
+17,11,Santa Marta de Penaguião
+17,12,Valpaços
+17,13,Vila Pouca de Aguiar
+17,14,Vila Real
+17,01,Alijó
+17,02,Boticas
+17,03,Chaves
+17,04,Mesão Frio
+18,05,Lamego
+18,06,Mangualde
+18,07,Moimenta da Beira
+18,08,Mortágua
+18,09,Nelas
+18,10,Oliveira de Frades
+18,11,Penalva do Castelo
+18,12,Penedono
+18,13,Resende
+18,14,Santa Comba Dão
+18,15,São João da Pesqueira
+18,16,São Pedro do Sul
+18,17,Sátão
+18,18,Sernancelhe
+18,19,Tabuaço
+18,20,Tarouca
+18,21,Tondela
+18,22,Vila Nova de Paiva
+18,23,Viseu
+18,24,Vouzela
+18,01,Armamar
+18,02,Carregal do Sal
+18,03,Castro Daire
+18,04,Cinfães
+31,05,Ponta do Sol
+31,06,Porto Moniz
+31,07,Ribeira Brava
+31,08,Santa Cruz
+31,09,Santana
+31,10,São Vicente
+31,01,Calheta (Madeira)
+31,02,Câmara de Lobos
+31,03,Funchal
+31,04,Machico
+32,01,Porto Santo
+41,01,Vila do Porto
+42,05,Ribeira Grande
+42,06,Vila Franca do Campo
+42,01,Lagoa (São Miguel)
+42,02,Nordeste
+42,03,Ponta Delgada
+42,04,Povoação
+43,01,Angra do Heroísmo
+43,02,Praia da Vitória
+44,01,Santa Cruz da Graciosa
+45,01,Calheta (São Jorge)
+45,02,Velas
+46,01,Lajes do Pico
+46,02,Madalena
+46,03,São Roque do Pico
+47,01,Horta
+48,01,Lajes das Flores
+48,02,Santa Cruz das Flores
+49,01,Corvo
