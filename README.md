@@ -33,3 +33,9 @@ Edição
 ------
 
   * [Ricardo Lafuente](http://twitter.com/rlaf)
+
+
+Agradecimentos
+--------------
+
+  * [João Antunes](http://twitter.com/joao), por ter [apontado o caminho certo](https://twitter.com/joao/status/572809514388471809) no Twitter
