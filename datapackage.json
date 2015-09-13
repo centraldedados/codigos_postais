@@ -5,6 +5,12 @@
   "homepage": "",
   "version": "0.1.0",
   "license": "PDDL-1.0",
+  "sources": [
+    {
+      "name": "CTT",
+      "web": "https://www.ctt.pt/feapl_2/app/restricted/postalCodeSearch/postalCodeDownloadFiles.jspx"
+    }
+  ],
   "resources": [
     {
       "name": "codigos_postais",
