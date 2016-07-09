@@ -1,8 +1,8 @@
 {
   "name": "codigos_postais",
   "title": "Códigos postais",
-  "description": "",
-  "homepage": "",
+  "description": "Códigos postais e as áreas que lhes correspondem",
+  "homepage": "http://github.com/centraldedados/codigos_postais/",
   "version": "0.1.0",
   "license": "PDDL-1.0",
   "sources": [
