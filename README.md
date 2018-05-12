@@ -36,18 +36,6 @@ Edição
   * [Ricardo Lafuente](http://twitter.com/rlaf)
 
 
-Detalhes técnicos
------------------
-
-O dataset original foi filtrado e simplificado para criar o CSV que se inclui nesta data package.
-O comando para essa filtragem é:
-
-    csvcut codigos_postais-orig.csv -c localidade,cod_arteria,tipo_arteria,prep1,titulo_arteria,prep2,nome_arteria,local_arteria,troco,porta,cliente,cod_postal,extensao_cod_postal,designacao_postal > codigos_postais.csv
-
-(É necessário ter o [csvkit](https://csvkit.readthedocs.org) instalado para
-poder executar esta operação.)
-
-
 Agradecimentos
 --------------
 
