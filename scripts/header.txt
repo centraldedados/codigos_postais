@@ -1,0 +1,1 @@
+cod_distrito;cod_concelho;cod_localidade;nome_localidade;cod_arteria;tipo_arteria;prep1;titulo_arteria;prep2;desig_arteria;local_arteria;troco;porta;cliente;num_cod_postal;ext_cod_postal;desig_postal
