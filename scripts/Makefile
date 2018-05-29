@@ -7,7 +7,7 @@ scrape:
 	iconv -f ISO-8859-15 -t utf-8 todos_cp.txt | sed 's/^M//' > todos_cp.csv
 	rm -f todos_cp.txt
 	# adicionar cabeçalho e normalizar com o csvclean
-	cat header.txt todos_cp.csv | csvclean -d ";"
+	. `pwd`/.env/bin/activate; cat header.txt todos_cp.csv | csvclean -d ";"
 	mv stdin_out.csv codigos.csv
 	rm -f todos_cp.csv
 	mv -f codigos.csv ../data/codigos_postais.csv
