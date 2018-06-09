@@ -1,6 +1,7 @@
 Nesta datapackage encontra-se a lista completa de códigos postais em Portugal
 (continente e regiões autónomas), com mais de 300000 entradas.
 
+![goodtables.io](https://goodtables.io/badge/github/centraldedados/codigos_postais.svg)](https://goodtables.io/github/centraldedados/codigos_postais)
 
 Fontes
 ------
