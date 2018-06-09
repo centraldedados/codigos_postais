@@ -36,7 +36,7 @@
             "description": "Código da localidade"
           },
           {
-            "name": "localidade",
+            "name": "nome_localidade",
             "type": "string",
             "description": "Nome da localidade"
           },
@@ -91,17 +91,17 @@
             "description": "Nome do cliente"
           },
           {
-            "name": "cod_postal",
+            "name": "num_cod_postal",
             "type": "integer",
             "description": "Número do código postal"
           },
           {
-            "name": "extensao_cod_postal",
+            "name": "ext_cod_postal",
             "type": "integer",
             "description": "Extensão do número do código postal"
           },
           {
-            "name": "designacao_postal",
+            "name": "desig_postal",
             "type": "string",
             "description": "Designação postal"
           }
