@@ -52,17 +52,17 @@
           },
           {
             "name": "prep1",
-            "type": "number",
+            "type": "string",
             "description": "Primeira preposição"
           },
           {
             "name": "titulo_arteria",
-            "type": "number",
+            "type": "string",
             "description": "Título (Doutor, Eng.º, Professor, etc)"
           },
           {
             "name": "prep2",
-            "type": "number",
+            "type": "string",
             "description": "Segunda preposição"
           },
           {
@@ -72,12 +72,12 @@
           },
           {
             "name": "local_arteria",
-            "type": "number",
+            "type": "string",
             "description": "Local da artéria"
           },
           {
             "name": "troco",
-            "type": "number",
+            "type": "string",
             "description": "Descrição do troço"
           },
           {
@@ -87,7 +87,7 @@
           },
           {
             "name": "cliente",
-            "type": "number",
+            "type": "string",
             "description": "Nome do cliente"
           },
           {
