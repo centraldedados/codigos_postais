@@ -7,6 +7,7 @@ Usa um browser automatizado para fazer login e aceder ao ficheiro que queremos.
 '''
 import os
 import splinter
+from time import sleep
 from configparser import SafeConfigParser
 
 
@@ -17,7 +18,8 @@ def init_browser(webdriver="chrome", headless=True):
                                 service_log_path=os.path.devnull,
                                 user_agent="Mozilla/5.0 ;Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; like Gecko")
     else:
-        return splinter.Browser(webdriver, service_log_path=os.path.devnull,
+        return splinter.Browser(webdriver,
+                                # headless=headless,
                                 user_agent="Mozilla/5.0 ;Windows NT 6.1; WOW64; Trident/7.0; rv:11.0; like Gecko")
 
 
@@ -27,8 +29,11 @@ def run():
     username = config.get('main', 'username')
     password = config.get('main', 'password')
 
-    # Não corremos em modo headless porque nesse caso não faz o download
-    browser = init_browser(headless=False)
+    browser = init_browser()
+    # em modo headless, temos de fazer isto para ele conseguir fazer o download
+    browser.driver.command_executor._commands["send_command"] = ("POST", '/session/$sessionId/chromium/send_command')
+    params = {'cmd': 'Page.setDownloadBehavior', 'params': {'behavior': 'allow', 'downloadPath': '.'}}
+    browser.driver.execute("send_command", params)
     # Fazer o login
     browser.visit('https://www.ctt.pt/fecas/login')
     browser.find_by_id('username').first.fill(username)
@@ -36,8 +41,10 @@ def run():
     browser.find_by_name('submit').first.click()
     # Ir ao URL do ficheiro
     browser.visit('https://www.ctt.pt/feapl_2/app/restricted/postalCodeSearch/postalCodeDownloadFiles!downloadPostalCodeFile.jspx')
-    from time import sleep
-    sleep(10)
+    timer = 0
+    while not os.path.exists('todos_cp.zip') or timer > 30:
+        sleep(1)
+        timer += 1
     browser.quit()
 
 

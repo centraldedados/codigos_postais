@@ -1,6 +1,6 @@
 scrape:
+	rm -f todos_cp.zip
 	. `pwd`/.env/bin/activate; python3 download.py
-	mv ~/Downloads/todos_cp.zip ./todos_cp.zip
 	unzip todos_cp.zip todos_cp.txt
 	rm -f todos_cp.zip
 	# converter para utf-8 e remover line endings de DOS
