@@ -31,6 +31,7 @@ def run():
 
     browser = init_browser()
     # em modo headless, temos de fazer isto para ele conseguir fazer o download
+    # https://bugs.chromium.org/p/chromium/issues/detail?id=696481#c80
     browser.driver.command_executor._commands["send_command"] = ("POST", '/session/$sessionId/chromium/send_command')
     params = {'cmd': 'Page.setDownloadBehavior', 'params': {'behavior': 'allow', 'downloadPath': '.'}}
     browser.driver.execute("send_command", params)
