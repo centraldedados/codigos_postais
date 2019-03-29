@@ -150,7 +150,7 @@
           {
             "name": "nome_distrito",
             "type": "string",
-            "description": "Código do concelho"
+            "description": "Nome do distrito"
           }
         ]
       }
