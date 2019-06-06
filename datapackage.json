@@ -82,7 +82,7 @@
           },
           {
             "name": "porta",
-            "type": "number",
+            "type": "string",
             "description": "Número da porta do cliente"
           },
           {
