@@ -43,7 +43,7 @@ def run():
     # Ir ao URL do ficheiro
     browser.visit('https://www.ctt.pt/feapl_2/app/restricted/postalCodeSearch/postalCodeDownloadFiles!downloadPostalCodeFile.jspx')
     timer = 0
-    while not os.path.exists('todos_cp.zip') or timer > 30:
+    while not os.path.exists('todos_cp.zip') and timer < 30:
         sleep(1)
         timer += 1
     browser.quit()
